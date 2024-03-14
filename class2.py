@@ -53,12 +53,12 @@ z, p_valor = ztest(x1=sample, value=mean)
 if(z <= z_alpha_1 or z >= z_alpha_2):
     print('Reject H0')
 else:
-    print('Acept H0')
+    print('Accept H0')
 
 if(p_value <= alfa):
     print('Reject H0')
 else:
-    print('Acept H0')
+    print('Accept H0')
 
 '''
 Um fabricante de farinha afirma que a quantidade média de farinha nas embalagens de seu principal produto é de 500 g. 
@@ -90,4 +90,4 @@ print('z =', round(z, 4))
 if(z <= z_alpha_1 or z >= z_alpha_2):
     print('Reject H0')
 else:
-    print('Acept H0')
+    print('Accept H0')
